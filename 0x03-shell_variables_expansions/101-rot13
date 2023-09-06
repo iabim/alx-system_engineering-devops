@@ -1,2 +1,2 @@
 #!/bin/bash
-rpub "ebg13NykGnfx" | ge 'N-Mn-m' 'A-MN-Za-mn-z'
+echo "rot13AlxTask" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
