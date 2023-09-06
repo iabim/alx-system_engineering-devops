@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "BREATH^LOVE" | bc -l
+result=1; for ((i=1; i<=$LOVE; i++)); do result=$((result * $BREATH)); done; echo $result
+
