@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -exec sh -c 'echo "${1##*/}"' _ {} \; -o -type d -empty -exec sh -c 'echo "${1##*/}"' _ {} \;
+find -empty | rev | cut -d/ -f1 | rev
